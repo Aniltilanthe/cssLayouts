@@ -1,0 +1,115 @@
+<HTML>
+
+<HEAD>
+
+    <title>CSS Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="grid.css">
+</HEAD>
+
+<BODY>
+
+    <div class="container container-color">
+        <div class="one border text-center">
+            <h1>CSS Grid Layout</h1></div>
+        <div class="col-box-1 border">Grid
+            <div class="code">
+                <br> display: grid;
+                <br> grid-template-columns: 10% 1fr 1fr 1fr;
+                <br> grid-gap: 0.625em;
+                <br> grid-auto-rows: minmax(5em, auto);
+            </div>
+        </div>
+        <div class="col-box-2 border">
+            <div class="code">
+                <br> Row 2 & Column 3
+                <br>
+                <br> grid-column: 3;
+                <br> grid-row: 2;
+            </div>
+        </div>
+        <div class="col-box-3 border">
+            <div class="code">
+                <br> Row 2 & Column 4
+                <br>
+                <br> grid-column: 4;
+                <br> grid-row: 2;
+                <br>
+            </div>
+        </div>
+
+        <div class="sidebar border">SideBar
+            <div class="code">
+                <br> Span 5 Row (2, 3, 4, 5, 6)
+                <br> Column 1
+                <br>
+                <br> grid-column: 1;
+                <br> grid-row: 2 / 7;
+            </div>
+        </div>
+
+        <div class="two border">
+            <div class="code">
+                <br> Span 2 Row (3, 4)
+                <br> Span 3 Column (2, 3, 4)
+                <br>
+                <br> grid-column: 2 / 5;
+                <br> grid-row: 3 / 5;
+            </div>
+        </div>
+        <div class="three border">
+            <div class="code">
+                <br> Span 2 Row (5, 6)
+                <br> Span 2 Column (2, 3)
+                <br>
+                <br> grid-column: 2 / 4;
+                <br> grid-row: 5 / 7;
+            </div>
+        </div>
+        <div class="four border">
+            <div class="code">
+                Row 5
+                <br> Column 4
+                <br>
+                <br> grid-column: 4;
+                <br> grid-row: 5;
+            </div>
+        </div>
+        <div class="five border">
+            <div class="code">
+                Row 6
+                <br> Column 3
+                <br>
+                <br> grid-column: 3;
+                <br> grid-row: 6;
+            </div>
+        </div>
+        <div class="six border">
+            <div class="code">
+                Row 6
+                <br> Column 4
+                <br>
+                <br> grid-column: 4;
+                <br> grid-row: 6;
+            </div>
+        </div>
+
+        <div class="footer border">
+            <h3>Footer - InfoArchitecture assignment</h3>
+            <ul>
+                <li>Anil Kumar Tilanthe</li>
+            </ul>
+
+            <div class="code">
+                Row 7
+                <br> Span 4 Column (1, 2, 3 , 4)
+                <br>
+                <br> grid-column: 1 / 5;
+                <br> grid-row: 7;
+            </div>
+        </div>
+    </div>
+
+</BODY>
+
+</HTML>
